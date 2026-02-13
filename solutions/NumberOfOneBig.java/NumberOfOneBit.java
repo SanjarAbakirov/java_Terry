@@ -10,18 +10,13 @@ class NumberOfOneBit {
 
     // Проверочная функция (тест)
     public static void main(String[] args) {
-        int n = 22;
-        int result = numberOfOneBit(n);
-        int expected = Integer.bitCount(n);
-
-        System.out.println("n = " + n + " (binary: " + Integer.toBinaryString(n) + ")");
-        System.out.println("Hamming weight = " + result);
-        System.out.println("Expected = " + expected);
-
-        if (result == expected) {
-            System.out.println("Тест пройден!");
-        } else {
-            System.out.println("Тест не пройден!");
+        int[] testValues = { 0, 1, 2, 3, 4, 5, 22, -1, -2, Integer.MAX_VALUE, Integer.MIN_VALUE };
+        for (int n : testValues) {
+            int result = numberOfOneBit(n);
+            int expected = Integer.bitCount(n);
+            System.out.printf("n = %d (binary: %s) -> result: %d, expected: %d %s%n",
+                    n, Integer.toBinaryString(n), result, expected,
+                    result == expected ? "OK" : "FAIL");
         }
     }
 }
