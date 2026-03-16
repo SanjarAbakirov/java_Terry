@@ -19,9 +19,14 @@ public class Person {
         this.lastName = lastName;
         this.dob = dob;
     }
+    
 
     public Person getSpouse() {
         return spouse;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     public String getfirstName() {

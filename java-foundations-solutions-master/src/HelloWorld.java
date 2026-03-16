@@ -13,5 +13,7 @@ public class HelloWorld {
 
         Dog fido = new Dog("Fido", LocalDate.of(2018, 1, 1));
         tom.setPet(fido);
+
+        System.ou.println(tom);
     }
 }
