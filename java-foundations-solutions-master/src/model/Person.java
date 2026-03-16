@@ -8,6 +8,10 @@ public class Person {
     private LocalDate dob;
     private Address address;
 
+    public Address getAddress() {
+        return address;
+    }
+
     public Person(String firstName, String lastName, LocalDate dob) {
         this.firstName = firstName;
         this.lastName = lastName;
