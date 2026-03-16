@@ -5,4 +5,12 @@ public class Address {
     private String address2;
     private String city;
     private String state;
+
+    public Address(String address1, String adddress2, String city, String state) {
+        this.address1 = address1;
+        this.address2 = address2;
+        this.city = city;
+        this.state = state;
+
+    }
 }
