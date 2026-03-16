@@ -7,6 +7,7 @@ public class Person {
     private String lastName;
     private LocalDate dob;
     private Address address;
+    private Person spouse;
 
     public Address getAddress() {
         return address;
