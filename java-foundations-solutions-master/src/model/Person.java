@@ -8,6 +8,7 @@ public class Person {
     private LocalDate dob;
     private Address address;
     private Person spouse;
+    private Pet pet;
 
     public Address getAddress() {
         return address;
@@ -17,6 +18,10 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
         this.dob = dob;
+    }
+
+    public Person getSpouse() {
+        return spouse;
     }
 
     public String getfirstName() {
