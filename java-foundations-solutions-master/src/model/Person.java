@@ -6,6 +6,7 @@ public class Person {
     private String firstName;
     private String lastName;
     private LocalDate dob;
+    private Address address;
 
     public Person(String firstName, String lastName, LocalDate dob) {
         this.firstName = firstName;
