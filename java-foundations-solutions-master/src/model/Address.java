@@ -11,6 +11,10 @@ public class Address {
         this.address2 = address2;
         this.city = city;
         this.state = state;
-
     }
+
+    public String getAddress1() {
+        return address1;
+    }
+
 }
