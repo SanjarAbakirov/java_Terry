@@ -1,4 +1,7 @@
 package model;
+import model.Person;
+import java.time.LocalDate;
+
 
 import java.time.LocalDate;
 
@@ -19,7 +22,7 @@ public class Person {
         this.lastName = lastName;
         this.dob = dob;
     }
-    
+
 
     public Person getSpouse() {
         return spouse;
