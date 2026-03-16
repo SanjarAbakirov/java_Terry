@@ -12,4 +12,12 @@ public class Person {
         this.lastName = lastName;
         this.dob = dob;
     }
+
+    public String getfirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 }
