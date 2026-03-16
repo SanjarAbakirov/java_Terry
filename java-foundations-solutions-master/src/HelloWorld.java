@@ -1,5 +1,5 @@
-import model.Persom;
-
+import model.Person;
+import model.Dog;
 import java.time.LocaDate;
 
 public class HelloWorld {
