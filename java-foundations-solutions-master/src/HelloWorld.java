@@ -10,5 +10,7 @@ public class HelloWorld {
         Person janet = new Person(firstName: "Janet", lastName: "Jakson", LocalDate.of(1985, 12, 3));
 
         tom.setSpouse(janet);
+
+        Dog fido = new Dog("Fido", LocalDate.of(2018, 1, 1));
     }
 }
