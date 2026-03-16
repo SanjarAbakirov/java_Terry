@@ -35,4 +35,8 @@ public class Person {
     public String getLastName() {
         return lastName;
     }
+
+    public void setPet(Pet pet){
+        this.pet = pet;
+    }
 }
