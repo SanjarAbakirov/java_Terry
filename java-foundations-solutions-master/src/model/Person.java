@@ -44,7 +44,8 @@ public class Person {
         return lastName;
     }
 
-    public void setPet(Pet pet){
+    public void setPet(Pet pet) {
         this.pet = pet;
     }
+
 }
